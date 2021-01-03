@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio | Vishal Teotia</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <!--<li>
+                <a href="#experience">Experience</a>
+            </li>-->
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+          <img src="images/avatar.jpg" />
+        </div>
+        <div id="lead-content">
+            <h1>Vishal Teotia</h1>
+            <h2>Backend/Django Developer</h2>
+            <!--<a href="" class="btn-rounded-white btn-center">Download Resume</a>-->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    I'm Vishal Teotia, currently pursuing <code>B.Tech Mechenical</code>.</br></br>
+                    I'm a Web Developer with Django and Python Skills <br><br>
+                    Started programming in Python and have slowly progressed into Django Framework <br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+<!--
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="April 2020 – Present">
+                <h3>Deimos</h3>
+                <h4>DevOps Engineer</h4>
+                <ul>
+                  <li>Creating and maintaning Infrastructures on AWS, GCP and Azure </li>
+                  <li>Using terraform to automate infrastructure creation</li>
+                  <li>Setting Up and Maintaining Kubernetes Clusters on Cloud Providers and clusters deployed using Kops, kubeadm</li>
+                  <li>Monitoring Kubernetes Clusters (using Elastic Stack, Prometheus) </li>
+                  <li>Deploying applications on Kubernetes (ExternalDNS, elastic stack, prometheus and other applications) using helm, Kustomize or argocd </li>
+                  <li>Setting up pipelines (azure, gitlab) etc to run jobs </li>
+                </ul>
+            </div>
+            <div data-date="November 2018 – July 2019">
+                <h3>eHeath4Everyone</h3>
+                <h4>Backend Developer (Remote)</h4>
+                <ul>
+                  <li>Maintenance and improvement of existing Django applications. Maintenance tasks ensured all applications have proper tests and also optimization of Django database queries. Creating background tasks using Celery for long running processes which revolved around executing Ansible Scripts for Infrastructure setups and generating Exports from data files (csv, json, xml) using Python.</li>
+                  <li>Implementation of Mock-ups using Django Templates and ensuring Template re-usability. Upgrading projects from Django 1.11/Python2 to Django 2.0/Python 3.</li>
+                  <li>Orchestrated CI pipeline using Gitlab-CI to run implemented tests and build projects before deployment.</li>
+                </ul>
+            </div>
+
+            <div data-date="May 2018 – November 2018">
+                <h3>eHealth4Everyone</h3>
+                <h4>Backend Deveoper (Student Intern)</h4>
+                <ul>
+                 <li>Creation and Maintenance of existing Django applications. Used Celery task Queues with Django to run long running processes and bootstrap to design Templates.<li>
+                <li>Creation of SaaS application to autodeploy Dhis2 Servers using Ansible to automate infrastructure setup, Docker(Compose) for container orchestration, Celery for executing Ansible Scripts, Rabbit MQ as message queue for communication between Django and Celery Server, Caching using Memcache. Tasks also involved design of application mockups using Bootstrap.</li>
+                <li>Maintenance of PyQt5 projects which used requests to pull data from API endpoints.</li>
+                </ul>
+            </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Vellore Institute of Technology, Chennai</h3>
+            <span class="education-date">Jun 2019 - Present</span>
+            <h4>Bachelor of Technology in Mechanical Engineering</h4><!--
+            <ul>
+              <li>Had some of the best classmates around where we learnt concepts of Computer Architecture, Data Structures and many computer related knowledges. Even worked on Arduino where we IoT devices, raspberry Pi, Assembly Language (: as well.</li>
+              <li>I was involved in a lot projects: part of a school research group where we focused on the advancement of SDNs and WSNs.</li>
+              <li>Graduated with First Class Honors</li>
+              <li>I was also part of the founders of the <a href="https://futminna-dev-circle.github.io">FUT Developers Circle</a>. A developer community to mentor upcoming developers.</li>
+            </ul>-->
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/zbc.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>ZBCVIT</h3>
+                        <p>
+                        A official website for Zero Bugs CLub VIT Chennai where club members can register get updates for upcoming events and can register for those events. Admin can upload resources on resource panel and can change permissions of the users in FFCS and non FFCS category.
+                        </p>
+                        <a href="https://zbcvitc.pythonanywhere.com">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <!-- End .project -->
+                <h5> Checkout More from my <a href="https://github.com/vashuteotia123">GitHub</a> </h5>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+    <div id="skills">
+        <h2 class="heading">Languages</h2>
+        <ul>
+            <li>Bash</li>
+            <li>Python</li>
+            <li>C++</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <!-- End #projects -->
+    <div id="skills">
+        <h2 class="heading">Frameworks and Libraries</h2>
+        <ul>
+            <li>Django</li>
+            <li>Flask</li>
+
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="skills">
+        <h2 class="heading">Tools</h2>
+        <ul>
+            <li>Git</li>
+            <li>Wireshark</li>
+            <li>Pentesting</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+
+    <div id="skills">
+        <h2 class="heading">Cloud Platforms</h2>
+        <ul>
+
+            <li>AWS</li>
+
+        </ul>
+    </div>
+    <!-- End #skills -->
+    <div id="hobbies">
+        <h2 class="heading">Hobbies</h2>
+        <ul>
+
+            <li>Attending Meetups</li>
+            <li>Movies</li>
+
+            <li>Gaming (FIFA, PES, Adventures, Shooting)</li>
+            <li>Competitve Programming</li>
+        </ul>
+    </div>
+    <!-- End #Hobbies -->
+<div id="contact">
+        <h2>Get in Touch</h2>
+    <h3><a href="mailto:vashuteotia123@gmail.com">Email: vashuteotia123@gmail.com</a></h3>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2021 Vishal Teotia
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/vashuteotia123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vishalteotia_/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/vishal-teotia-337b55188/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
